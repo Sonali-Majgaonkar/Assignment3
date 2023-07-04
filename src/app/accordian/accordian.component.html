@@ -1,0 +1,9 @@
+<div class="mt-5">
+    <p-accordion *ngFor="let list of accordianList">
+        <p-accordionTab header={{list.heading}}>
+            <p>
+                {{list.details}}
+            </p>
+        </p-accordionTab>
+    </p-accordion>
+</div>
